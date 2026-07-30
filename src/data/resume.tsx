@@ -156,6 +156,16 @@ skills: [
       end: "2020", //[cite: 1]
     },
   ],
-  projects: [],
+  projects: [] as {
+  title: string;
+  href?: string;
+  dates?: string;
+  active?: boolean;
+  description?: string;
+  technologies?: readonly string[];
+  links?: readonly { type?: string; href: string; icon?: any }[];
+  image?: string;
+  video?: string;
+}[],
   hackathons: [] as any[],
 } as const;
