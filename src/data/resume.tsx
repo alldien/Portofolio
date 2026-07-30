@@ -52,7 +52,7 @@ skills: [
       Instagram: {
         name: "Instagram",
         url: "http://instagram.com/alldie.n",
-        icon: Icons.globe,
+        icon: Icons.instagram,
         navbar: true,
       },
       Youtube: {
@@ -64,7 +64,7 @@ skills: [
       TikTok: {
         name: "TikTok",
         url: "https://www.tiktok.com/@alldie.n",
-        icon: Icons.globe,
+        icon: Icons.tiktok,
         navbar: true,
       },
       email: {
