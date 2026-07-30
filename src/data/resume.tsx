@@ -23,18 +23,18 @@ export const DATA = {
   summary:
     "Graphic Designer & Content Creator dengan pengalaman lebih dari 4 tahun dalam merancang strategi visual dan konten digital untuk brand e-commerce, yayasan, dan perusahaan swasta. Terbukti mampu meningkatkan engagement dan brand awareness melalui perencanaan konten end-to-end, desain visual, serta pemanfaatan tools AI untuk mempercepat produksi konten tanpa mengorbankan kualitas.", //[cite: 1]
   avatarUrl: "/me.png",
-  skills: [
-    { name: "Graphic Design & Visual Branding" }, //[cite: 1]
-    { name: "Video Editing" }, //[cite: 1]
-    { name: "Content Strategy & Planning" }, //[cite: 1]
-    { name: "Social Media Management" }, //[cite: 1]
-    { name: "AI-Assisted Design Workflow" }, //[cite: 1]
-    { name: "Photography & Videography" }, //[cite: 1]
-    { name: "UI Design" }, //[cite: 1]
-    { name: "Project Management" }, //[cite: 1]
-    { name: "Basic Drone Pilot" }, //[cite: 1]
-    { name: "JavaScript (Dasar)" }, //[cite: 1]
-  ],
+skills: [
+  { name: "Graphic Design & Visual Branding", icon: null },
+  { name: "Video Editing", icon: null },
+  { name: "Content Strategy & Planning", icon: null },
+  { name: "Social Media Management", icon: null },
+  { name: "AI-Assisted Design Workflow", icon: null },
+  { name: "Photography & Videography", icon: null },
+  { name: "UI Design", icon: null },
+  { name: "Project Management", icon: null },
+  { name: "Basic Drone Pilot", icon: null },
+  { name: "JavaScript (Dasar)", icon: null },
+],
  navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
