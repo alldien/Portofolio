@@ -5,6 +5,8 @@ import { DATA } from "@/data/resume";
 import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
 
 export default function HackathonsSection() {
+  // Tambahkan baris pengecekan ini di paling atas komponen:
+  if (!DATA.hackathons || DATA.hackathons.length === 0) return null;
   return (
     <section id="hackathons" className="overflow-hidden">
       <div className="flex min-h-0 flex-col gap-y-8 w-full">
