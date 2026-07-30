@@ -157,5 +157,5 @@ skills: [
     },
   ],
   projects: [],
-  hackathons: [],
+  hackathons: [] as any[],
 } as const;
