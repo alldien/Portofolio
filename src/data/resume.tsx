@@ -21,7 +21,7 @@ export const DATA = {
   description:
     "Graphic Designer & Digital Content Specialist dengan pengalaman dalam merancang strategi visual dan konten digital.", //
   summary:
-    "Graphic Designer & Content Creator dengan pengalaman lebih dari 4 tahun dalam merancang strategi visual dan konten digital untuk brand e-commerce, yayasan, dan perusahaan swasta. Terbukti mampu meningkatkan engagement dan brand awareness melalui perencanaan konten end-to-end, desain visual, serta pemanfaatan tools AI untuk mempercepat produksi konten tanpa mengorbankan kualitas.", //[cite: 1]
+    "Graphic Designer & Content Creator dengan pengalaman lebih dari 4 tahun dalam merancang strategi visual dan konten digital untuk brand e-commerce, yayasan, dan perusahaan swasta. Mampu meningkatkan engagement dan brand awareness melalui perencanaan konten end-to-end, desain visual, serta pemanfaatan tools AI untuk mempercepat produksi konten tanpa mengorbankan kualitas.", //[cite: 1]
   avatarUrl: "/aldienpp.jpg",
 skills: [
   { name: "Graphic Design & Visual Branding", icon: null },
