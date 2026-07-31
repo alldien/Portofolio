@@ -46,7 +46,7 @@ skills: [
     social: {
       LinkedIn: {
         name: "LinkedIn",
-        url: "http://www.linkedin.com/in/khalid-aldien-744b5521a",
+        url: "http://www.linkedin.com/in/khalidaldien",
         icon: Icons.linkedin,
         navbar: true,
       },
