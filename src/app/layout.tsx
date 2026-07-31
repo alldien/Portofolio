@@ -61,8 +61,32 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Schema Markup JSON-LD untuk Personal Branding & Entity Linking Google
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: DATA.name,
+    alternateName: ["Aldien", "alldie.n", "Khalid Aldien"],
+    url: "https://khalidaldien.vercel.app",
+    jobTitle: "Graphic Designer & Digital Content Specialist",
+    description: DATA.description,
+    sameAs: [
+      DATA.contact.social.LinkedIn.url,
+      DATA.contact.social.Instagram.url,
+      DATA.contact.social.Youtube.url,
+      DATA.contact.social.TikTok.url,
+    ],
+  };
+
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Menyisipkan Schema Markup ke Google */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased relative",
