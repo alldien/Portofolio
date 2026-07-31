@@ -33,7 +33,7 @@ skills: [
   { name: "UI Design", icon: null },
   { name: "Project Management", icon: null },
   { name: "Basic Drone Pilot", icon: null },
-  { name: "JavaScript (Dasar)", icon: null },
+  { name: "Basic Web Development", icon: null },
 ],
  navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
