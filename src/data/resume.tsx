@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, FileText, Globe } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -37,7 +37,8 @@ skills: [
 ],
  navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/AldienResumeATS.pdf", icon: FileText, label: "Resume" },
+    { href: "https://bit.ly/m/alldien", icon: Globe, label: "Link" },
   ],
   contact: {
     email: "kaaldien@gmail.com", //[cite: 1]
