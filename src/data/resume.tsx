@@ -96,7 +96,7 @@ skills: [
       badges: [],
       location: "Bandung, Jawa Barat",
       title: "Graphic Designer & Editor", //[cite: 1]
-      logoUrl: "",
+      logoUrl: "Yamuti-Logo.png",
       start: "Agustus 2024", //[cite: 1]
       end: "September 2025", //[cite: 1]
       description:
@@ -108,7 +108,7 @@ skills: [
       badges: [],
       location: "Bandung, Jawa Barat",
       title: "Photographer", //[cite: 1]
-      logoUrl: "",
+      logoUrl: "HijiMoment-Logo.png",
       start: "Juli 2024", //[cite: 1]
       end: "Desember 2025", //[cite: 1]
       description:
@@ -120,7 +120,7 @@ skills: [
       badges: [],
       location: "Bandung, Jawa Barat",
       title: "Graphic Designer & Website Administrator", //[cite: 1]
-      logoUrl: "",
+      logoUrl: "Dwimas-Logo.png",
       start: "Agustus 2020", //[cite: 1]
       end: "Agustus 2024", //[cite: 1]
       description:
@@ -132,7 +132,7 @@ skills: [
       badges: [],
       location: "Bandung, Jawa Barat",
       title: "Creative Marketing Manager", //[cite: 1]
-      logoUrl: "",
+      logoUrl: "Quilashine-Logo-01.png",
       start: "2024", //[cite: 1]
       end: "2024", //[cite: 1]
       description:
@@ -144,7 +144,7 @@ skills: [
       school: "Universitas Nurtanio Bandung", //[cite: 1]
       href: "#",
       degree: "S1 Ilmu Administrasi Negara", //[cite: 1]
-      logoUrl: "",
+      logoUrl: "Unnur-Logo.png",
       start: "2022", //[cite: 1]
       end: "2026", //[cite: 1]
     },
