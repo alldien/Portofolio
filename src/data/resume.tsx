@@ -152,7 +152,7 @@ skills: [
       school: "SMK Bakti Nusantara 666", //[cite: 1]
       href: "#",
       degree: "Rekayasa Perangkat Lunak", //[cite: 1]
-      logoUrl: "",
+      logoUrl: "LOGO-BN-666.png",
       start: "2017", //[cite: 1]
       end: "2020", //[cite: 1]
     },
