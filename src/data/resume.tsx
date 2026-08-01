@@ -84,7 +84,7 @@ skills: [
       badges: [],
       location: "Bandung, Jawa Barat",
       title: "Creative Editor & Designer", //[cite: 1]
-      logoUrl: "",
+      logoUrl: "CVARSA-LOGO.png",
       start: "Januari 2026", //[cite: 1]
       end: "Sekarang", //[cite: 1]
       description:
