@@ -15,7 +15,7 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 export const DATA = {
   name: "Khalid Aldien", //
   initials: "KA",
-  url: "https://khalidaldien.great-site.net", //
+  url: "https://khalidaldien.vercel.app", //
   location: "Kab. Bandung, Jawa Barat", //
   locationLink: "https://www.google.com/maps/place/Bandung",
   description:
