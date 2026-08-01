@@ -1,25 +1,26 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { MoonIcon, SunIcon } from "lucide-react";
+import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
+import { cn } from "@/lib/utils";
 
-export function ModeToggle() {
+export function ModeToggle({ className }: { className?: string }) {
   const { theme, setTheme } = useTheme();
 
   return (
     <Button
-      variant="ghost"
       type="button"
+      variant="link"
       size="icon"
-      className="px-2"
+      className={cn(className)}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {/* Ikon Matahari: Tampil saat mode Terang (Light), tersembunyi saat mode Gelap */}
-      <SunIcon className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />
+      {/* Ikon Matahari: Tampil di mode Terang (Light), disembunyikan (dark:hidden) di mode Gelap */}
+      <SunIcon className="h-full w-full dark:hidden" />
       
-      {/* Ikon Bulan: Tersembunyi saat mode Terang, tampil saat mode Gelap (Dark) */}
-      <MoonIcon className="hidden h-[1.2rem] w-[1.2rem] text-neutral-800 dark:block dark:text-neutral-200" />
+      {/* Ikon Bulan: Secara bawaan disembunyikan (hidden), baru ditampilkan (dark:block) di mode Gelap */}
+      <MoonIcon className="hidden h-full w-full dark:block" />
     </Button>
   );
 }
